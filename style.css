@@ -48,6 +48,10 @@ body {
   overflow-x: hidden;
 }
 
+body:has(.edie__menu:target) {
+  overflow: hidden;
+}
+
 header {
   margin: 0.75rem 0.75rem 0;
 }
